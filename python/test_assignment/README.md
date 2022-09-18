@@ -3,8 +3,10 @@
 
 Both of your Fall quarter grad classes (ASTR 257 and ASTR 204) require Python programming.  If you feel that you would benefit from going through some brief Python tutorials, we have compiled some resources below.  To be clear, we expect many of you are proficient in Python (probably more proficient than your instructors), but if you’ve mostly programmed in other languages, it would be worthwhile to practice Python before classes start.
 
-To define “proficient” we have a brief problem for you to try.  This is optional and 
-you don’t have to turn it in.  If this is straight-forward for you, then you should have 
+To define “proficient” we have a brief problem for you to try.  
+This is required end 
+you have to turn it in.  
+If this is straight-forward for you, then you should have 
 no problem with the programming for ASTR 257.
 
  
