@@ -1,0 +1,1 @@
+photutil’s documentation uses madstd and madstd is not really that cool
