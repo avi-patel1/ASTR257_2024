@@ -75,5 +75,31 @@ Calibrated Image = (science - dark)/(flat_bright - flat_dark)
 ## Photometry
 ### 9/23/2024
 
-#### 
+#### The magnitude system 
+ - m_1 - m_ref = -2.5 * log_10(F_1/F_ref)
+ - Zero-point magnitude (vega system): says that vega is zero mag at all wavelengths. 
+
+#### Aperture Photometry
+- Sum all the pixel values within a given aperture 
+- Subtract off a flat background (outer annulus) to remove from source
+- Issues: If a cloud passes overhead or atmosphere changes all stars will dim by same amount
+
+#### PSF-Fitting Photometry
+- PSF (Point spread function) is the shape of the star 
+- More photons near center the center of the star (kinda looks like a 2d Gaussian)
+- Weighted sum using Gaussian
+- Better for crowded fields to distinguish sources than aperture photometry
+
+#### Absolute Calibration - 
+- __Landolt Fields__ compare the number of counts in your star with the number of counts in a Landolt star
+
+#### HR-Diagram
+- plots v vs. b-v magnitudes
+- Can fit models to determine age of cluster
+
+## Statistics and SNR 
+
+#### Error Analysis - Propagation of Errors 
+- __Gaussian Distribution:__ In almost all cases, Gaussian error bars are the thing to use 
+- __Poisson Distribution__: counting error. Anything that you can count (small number) follows this distribution. Becomes Gaussian for large lambda.
 
