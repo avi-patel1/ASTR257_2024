@@ -143,3 +143,25 @@ Calibrated Image = (science - dark)/(flat_bright - flat_dark)
 - Neptune, Io, Uranus, Titan, Pluto
 - Choose three wavelengths 
 - Infrared imager 
+
+
+## SNR Calculation for Dithering 
+
+#### Goal of Dithering 
+- Sky is bright in the infrared 
+- Telescope structure and optics glow in IR. Dithering aims to subtract this
+- Good for averaging over detector non-uniformities suCh as bad pixels
+
+#### Two-point dither 
+- Take two images and move telescope between them. Background sytays the same and star moves. Subtract images 
+- Crop out small regions around the positive and negative star. Align and subtract to get a combined image
+- For IR, it is important to get a flat background around star.
+
+#### Four-Point Dither
+- Subtract the average (or median) background from the other 3 images. Repeat this for each of the four positions 
+
+#### Relation between Dithering and SNR 
+- In General, the more dithers done, the higher SNR since more backgrounds are averaged (or median)
+- Background changes over time (dependent on telescope and instrument and also on wavelength) which limits time for dithering 
+- Always consult telescope/instrument webpage for information on number of dithers 
+
