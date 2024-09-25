@@ -103,3 +103,43 @@ Calibrated Image = (science - dark)/(flat_bright - flat_dark)
 - __Gaussian Distribution:__ In almost all cases, Gaussian error bars are the thing to use 
 - __Poisson Distribution__: counting error. Anything that you can count (small number) follows this distribution. Becomes Gaussian for large lambda.
 
+## Adaptive Optics and its Applications
+### 9/25/2024
+
+#### Why is adaptive optics needed?
+- Turbulence in Earth's atmosphere causes stars to twinkle. 
+- An 8" telescope without adaptive optics will make the same images as Keck without AO
+- When taking short exposure image, it is diffraction limited (end up with speckles)
+
+#### Where does turbulence come from?
+- Inside of the dome, (hot air inside the dome and cool air outside) causes convection
+- Wind flow over the dome causes turbulence
+- Boundary layer: at nighttime the ground radiates energy causing temperature fluctuations. Best place to build telescopes is along a cliff
+
+#### Atmospherica perturbations cause distorted wavefronts
+
+#### Optical consequences of turbulence
+- Light rays affected by turbulence make blurry images
+
+#### How does adaptive optics help? 
+- wavefront sensor and deformable mirror to correct light rays affected by turbulence (does it ~1000 times a second!!)
+
+#### Adaptive optics increases peak intensity of point source
+
+#### Wavefront sensor 
+- Shak-Hartman wavefront sensor: Place lenslet array in front of CCD.
+- From the CCD, we can model the wavefront
+- Deformable mirror has a set of actuactors. (can do a piecewise linear fit of the wavefront)
+
+#### Laser Light Star
+- Use a laser beam to create a fake star to help focus the image (sharper image, more stars)
+
+#### Adaptive optics Research
+- Andy works on direct exoplanet imaging using AO
+
+#### AO 
+- Airy pattern: width of main pattern is $\lambda/D$
+- What are some of the current problems with AO?
+- Neptune, Io, Uranus, Titan, Pluto
+- Choose three wavelengths 
+- Infrared imager 
