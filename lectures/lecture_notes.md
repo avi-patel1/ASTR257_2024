@@ -165,3 +165,25 @@ Calibrated Image = (science - dark)/(flat_bright - flat_dark)
 - Background changes over time (dependent on telescope and instrument and also on wavelength) which limits time for dithering 
 - Always consult telescope/instrument webpage for information on number of dithers 
 
+## Spectroscopy
+### 9/26/2024
+
+#### Imaging vs Spectroscopy
+- __Imaging__ is useful for measuring brightness, positioning, morphology, color 
+- __Spectroscopy__ is useful for atmomic and molecular compositions, ionization states, kinematics
+
+#### Kirchoff's Laws of Spectroscopy
+- Continuous spectrum (low density) will emit light 
+
+#### How Spectrographs work 
+- put a prism in your imager
+- some spectra overlap, especially is you have long spectra. Solution is to use a slit to isolate one source
+- A slit is a cut in a piece of metal
+- Grating spectrograph
+
+#### Multiple-object spectroscopy
+- Take spectra of multiple objects at a time. Someone has machined multiple slits to isolate multiple stars 
+- Some instrument will put a fiber onto a single star (SDSS)
+- Integral Field Spectrograph: get a spectrum of every pixel. Can recreate the image of interest at every wavelength. 
+- __Kevin Bundy__: Placing fibers onto actuators. Place a big version onto Keck. 
+- 
