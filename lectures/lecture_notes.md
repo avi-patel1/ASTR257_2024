@@ -188,5 +188,6 @@ Calibrated Image = (science - dark)/(flat_bright - flat_dark)
 - __Kevin Bundy__: Placing fibers onto actuators. Place a big version onto Keck. 
 
 
-#### Observation Notes:
+
+
 
